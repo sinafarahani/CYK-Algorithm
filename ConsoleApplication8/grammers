@@ -1,0 +1,35 @@
+[GRAMMER1]
+
+ALPHABET:
+a, b ;
+
+VARIABLES:
+S, A, B ; 
+
+PRODUCTIONS:
+S -> AB | BB ;
+B -> AB | b ;
+A -> a ; 
+
+START:
+S
+
+[END]
+
+[GRAMMER2]
+
+ALPHABET:
+a, b ;
+
+VARIABLES:
+S, A, B ; 
+
+PRODUCTIONS:
+S->AB
+S->BC
+A->BA
+A->a
+B->CC|b
+C->AB|a
+
+[END]
